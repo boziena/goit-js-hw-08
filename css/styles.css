@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px;
+  justify-content: center;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 240px;
+  object-fit: cover;
+  cursor: pointer;
+  display: block;
+}
